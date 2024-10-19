@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     description: "Unlock the future of education with MoocFlix. Our scalable platform blends advanced video streaming and learning management, allowing you to elevate your skills through immersive, on-demand courses.",
     images: [
       {
-        url: "/path/to/image.jpg",
+        url: "/public/moocflix.jpg",
         alt: "MoocFlix",
       },
     ],

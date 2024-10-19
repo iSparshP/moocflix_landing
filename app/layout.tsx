@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: "https://www.moocflix.tech",
     images: [
       {
-        url: "/path/to/image.jpg",
+        url: "/public/moocflix.jpg",
         width: 800,
         height: 600,
         alt: "MoocFlix",

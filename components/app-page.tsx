@@ -1,7 +1,7 @@
 'use client'
 
 import { Button } from "@/components/ui/button"
-import { Github } from "lucide-react"
+import { Github, LaptopMinimal } from "lucide-react"
 import { useEffect, useState } from 'react'
 
 export function Page() {
@@ -27,6 +27,7 @@ export function Page() {
         <p className="text-lg sm:text-xl mb-8">
           Unlock the future of education with MoocFlix. Our scalable platform blends advanced video streaming and learning management, allowing you to elevate your skills through immersive, on-demand courses.
         </p>
+        <div className="flex flex-col sm:flex-row gap-4">
         <a href="https://github.com/iSparshP/moocflix" target="_blank" rel="noopener noreferrer">
           <Button 
             className="bg-white text-black hover:bg-white hover:text-black transition-all duration-300 ease-in-out transform hover:scale-105"
@@ -38,6 +39,18 @@ export function Page() {
             View on GitHub
           </Button>
         </a>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <Button 
+            className="bg-white text-black hover:bg-white hover:text-black transition-all duration-300 ease-in-out transform hover:scale-105"
+            style={{
+              boxShadow: '0 0 10px rgba(255, 255, 255, 0.5)',
+            }}
+          >
+            <LaptopMinimal className="mr-2 h-5 w-5" />
+            Have Fun Learning
+          </Button>
+        </a>
+        </div>
       </div>
       <style jsx global>{`
         .stars {
